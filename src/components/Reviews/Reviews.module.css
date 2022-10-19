@@ -1,0 +1,13 @@
+.message {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 30px;
+}

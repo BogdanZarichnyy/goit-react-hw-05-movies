@@ -1,0 +1,72 @@
+.link {
+    display: inline-block;
+    background-color: burlywood;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.link:hover,
+.link:focus {
+    background-color: greenyellow;
+}
+
+.link:active {
+    background-color: red;
+    color: white;
+}
+
+.box {
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 40%;
+}
+
+.info {
+    width: 50%;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+.ovewview {
+    margin-bottom: 10px;
+}
+
+.genre {
+    margin-bottom: 10px;
+}
+
+.additional {
+    margin-bottom: 10px;
+}
+
+.list {
+    margin-bottom: 30px;
+    list-style:inside
+}
+
+.item {
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: blue;
+}
+
+.item:hover,
+.item:focus,
+.item:active {
+    color: red;
+}

@@ -1,0 +1,21 @@
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.image {
+    height: 350px;
+    width: auto;
+}
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 40px;
+}

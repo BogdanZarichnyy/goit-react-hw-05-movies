@@ -1,0 +1,21 @@
+.match {
+    margin: 30px 0;
+    font-size: 32px;
+}
+
+.list {
+    display: inline-block;
+    margin: 30px 0;
+    list-style: inside;
+}
+
+.item {
+    font-size: 24px;
+    color: blue;
+}
+
+.item:hover {
+    text-decoration: underline;
+    color: rgb(231, 26, 204);
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.input {
+    width: 500px;
+    padding: 6px;
+    font-size: 18px;
+}
+
+.button {
+    border: 0;
+    padding: 8px;
+    font-size: 18px;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: yellow;
+    box-shadow: 1px 1px 6px black;
+    color: black;
+}
+
+.button:active {
+    background-color: green;
+    box-shadow: inset 1px 1px 6px black;
+    color: white;
+}
