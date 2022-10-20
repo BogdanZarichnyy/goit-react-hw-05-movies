@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { getMovies } from '../../utils/getMovies';
-import placeholderImage from '../music.jpg';
+import placeholderImage from './images/music.jpg';
 
 import css from './Cast.module.css';
 
