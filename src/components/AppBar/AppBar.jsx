@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { NavLink, Outlet } from "react-router-dom";
 import { Container } from '../Container/Container';
 
@@ -17,9 +18,12 @@ export const AppBar = () => {
             
             <Container>
                 <div className={css.wrraper}>
-                    <Outlet />
+                    <Suspense fallback={<div>Loading page...</div>}>
+                        <Outlet />
+                    </Suspense>
                 </div>
             </Container>
            
         </>
-)}
+    )
+}

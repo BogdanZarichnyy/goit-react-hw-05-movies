@@ -5,7 +5,7 @@ import { FilmsList } from '../../components/FilmsList/FilmsList';
 
 import css from './Movies.module.css';
 
-export const Movies = () => {
+const Movies = () => {
     const [searchFilms, setSearchFilms] = useState([]);
     const [fistrMount, setFistrMount] = useState(true);
     const [ , setSearchParams] = useSearchParams();
@@ -68,4 +68,7 @@ export const Movies = () => {
 
             <Outlet />
         </>
-)}
+    )
+}
+
+export default Movies;

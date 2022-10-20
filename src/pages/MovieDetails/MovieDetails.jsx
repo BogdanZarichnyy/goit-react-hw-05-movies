@@ -4,7 +4,7 @@ import { getMovies } from '../../utils/getMovies';
 
 import css from './MovieDetails.module.css';
 
-export const MovieDetails = () => {
+const MovieDetails = () => {
     const [details, setDetails] = useState(null);
     const { movieId } = useParams();
     const location = useLocation();
@@ -63,3 +63,5 @@ export const MovieDetails = () => {
         </>
     )
 }
+
+export default MovieDetails;

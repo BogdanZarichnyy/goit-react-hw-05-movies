@@ -1,9 +1,11 @@
 import css from './PageNotFound.module.css';
 
-export const PageNotFound = () => {
+const PageNotFound = () => {
     return (
         <>
             <div className={css.title}>Page Not Found</div>
         </>
     );
 }
+
+export default PageNotFound;

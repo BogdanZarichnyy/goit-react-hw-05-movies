@@ -4,7 +4,7 @@ import { FilmsList } from '../../components/FilmsList/FilmsList';
 
 import css from './Home.module.css';
 
-export const Home = () => {
+const Home = () => {
     const [filmsToday, setFilmsToday] = useState([]);
 
     useEffect(() => {
@@ -20,4 +20,7 @@ export const Home = () => {
 
             <FilmsList filmsList={filmsToday} />
         </>
-)}
+    )
+}
+
+export default Home;
