@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/437.47ed64b1.chunk.css","mappings":"AAAA,2BACI,cAAe,CACf,eACJ","sources":["pages/PageNotFound/PageNotFound.module.css"],"sourcesContent":[".title {\n    font-size: 32px;\n    font-weight: 600;\n}"],"names":[],"sourceRoot":""}
